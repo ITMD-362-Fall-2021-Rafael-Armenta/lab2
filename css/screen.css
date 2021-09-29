@@ -10,6 +10,7 @@ header	{
 
 h2	{
 	font-size: 1.5em;
+	
 }
 
 label	{
@@ -31,3 +32,23 @@ label, input{
 	margin: 1em;
 	text-align: center;
 }
+
+
+@media screen and (min-width: 900px)	{
+	
+	form	{
+		text-align: center;
+	}
+	
+	label, input{
+			width: 20%;
+			display: block;
+	}
+
+	#submitbtn	{
+		width: 50%;
+		margin: 1em;
+		margin-left: 25%;
+	}
+		
+	}
