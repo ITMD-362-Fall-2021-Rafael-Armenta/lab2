@@ -1,13 +1,33 @@
-body	{
+html	{
 	background-color: grey;
+	line-height: 3em;
 }
 
 header	{
 	font-size: 2em;
 	text-align: center;
-	
 }
 
-fieldset	{
+h2	{
+	font-size: 1.5em;
+}
+
+label	{
+	font-size: 1.25em;
+}
+
+input {
+    padding: 0.5em;
+		border-radius: 5em;
+}
+
+label, input{
+		width: 85%;
+    display: block;
+    margin: auto;
+}
+
+#submitbtn	{
+	margin: 1em;
 	text-align: center;
 }
